@@ -16,6 +16,18 @@
 		FAAAF241218B2E3E0082354F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */; };
 		FAAAF244218B80040082354F /* 201@2xiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF243218B80030082354F /* 201@2xiphone.png */; };
 		FAAAF246218B819E0082354F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF245218B819E0082354F /* background.png */; };
+		FAAAF248218CC0A80082354F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF247218CC0A80082354F /* HomeController.swift */; };
+		FAAAF24A218CC1050082354F /* LivingRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF249218CC1050082354F /* LivingRoomController.swift */; };
+		FAAAF24C218CC1360082354F /* KitchenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF24B218CC1360082354F /* KitchenController.swift */; };
+		FAAAF24E218CFB330082354F /* icons8-Sphere-48.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF24D218CFB320082354F /* icons8-Sphere-48.png */; };
+		FAAAF250218CFB3C0082354F /* icons8-Home Automation-48.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF24F218CFB3B0082354F /* icons8-Home Automation-48.png */; };
+		FAAAF252218D00660082354F /* temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF251218D00660082354F /* temp.jpg */; };
+		FAAAF255218D03750082354F /* sofa.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF253218D03750082354F /* sofa.png */; };
+		FAAAF256218D03750082354F /* pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF254218D03750082354F /* pan.jpg */; };
+		FAAAF258218D03BD0082354F /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF257218D03BD0082354F /* bed.png */; };
+		FAAAF25A218D0A960082354F /* bluebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF259218D0A960082354F /* bluebackground.jpg */; };
+		FAAAF25D218D0DA30082354F /* UNADJUSTEDNONRAW_thumb_735.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF25C218D0DA20082354F /* UNADJUSTEDNONRAW_thumb_735.jpg */; };
+		FAAAF25F218D14AA0082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF25E218D14A90082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,19 @@
 		FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAAAF243218B80030082354F /* 201@2xiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "201@2xiphone.png"; sourceTree = "<group>"; };
 		FAAAF245218B819E0082354F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FAAAF247218CC0A80082354F /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FAAAF249218CC1050082354F /* LivingRoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomController.swift; sourceTree = "<group>"; };
+		FAAAF24B218CC1360082354F /* KitchenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenController.swift; sourceTree = "<group>"; };
+		FAAAF24D218CFB320082354F /* icons8-Sphere-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Sphere-48.png"; path = "homeapp/icons8-Sphere-48.png"; sourceTree = SOURCE_ROOT; };
+		FAAAF24F218CFB3B0082354F /* icons8-Home Automation-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Home Automation-48.png"; path = "homeapp/icons8-Home Automation-48.png"; sourceTree = SOURCE_ROOT; };
+		FAAAF251218D00660082354F /* temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp.jpg; sourceTree = SOURCE_ROOT; };
+		FAAAF253218D03750082354F /* sofa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sofa.png; sourceTree = SOURCE_ROOT; };
+		FAAAF254218D03750082354F /* pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pan.jpg; sourceTree = SOURCE_ROOT; };
+		FAAAF257218D03BD0082354F /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = SOURCE_ROOT; };
+		FAAAF259218D0A960082354F /* bluebackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluebackground.jpg; sourceTree = SOURCE_ROOT; };
+		FAAAF25B218D0D750082354F /* IMG_0104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0104.jpg; sourceTree = "<group>"; };
+		FAAAF25C218D0DA20082354F /* UNADJUSTEDNONRAW_thumb_735.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_735.jpg; sourceTree = "<group>"; };
+		FAAAF25E218D14A90082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_5f6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				FA11744B218B2ACE00DE153C /* AppDelegate.swift */,
+				FAAAF247218CC0A80082354F /* HomeController.swift */,
+				FAAAF249218CC1050082354F /* LivingRoomController.swift */,
+				FAAAF24B218CC1360082354F /* KitchenController.swift */,
 				FA11744D218B2ACE00DE153C /* ViewController.swift */,
 				FA11744F218B2ACE00DE153C /* Main.storyboard */,
 				FA117452218B2AD400DE153C /* Assets.xcassets */,
@@ -90,6 +118,16 @@
 		FAAAF242218B7FC70082354F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FAAAF259218D0A960082354F /* bluebackground.jpg */,
+				FAAAF25B218D0D750082354F /* IMG_0104.jpg */,
+				FAAAF25E218D14A90082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg */,
+				FAAAF254218D03750082354F /* pan.jpg */,
+				FAAAF25C218D0DA20082354F /* UNADJUSTEDNONRAW_thumb_735.jpg */,
+				FAAAF257218D03BD0082354F /* bed.png */,
+				FAAAF253218D03750082354F /* sofa.png */,
+				FAAAF251218D00660082354F /* temp.jpg */,
+				FAAAF24D218CFB320082354F /* icons8-Sphere-48.png */,
+				FAAAF24F218CFB3B0082354F /* icons8-Home Automation-48.png */,
 				FAAAF245218B819E0082354F /* background.png */,
 				FAAAF243218B80030082354F /* 201@2xiphone.png */,
 			);
@@ -165,11 +203,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAAF25A218D0A960082354F /* bluebackground.jpg in Resources */,
 				FA117456218B2AD400DE153C /* LaunchScreen.storyboard in Resources */,
+				FAAAF25D218D0DA30082354F /* UNADJUSTEDNONRAW_thumb_735.jpg in Resources */,
 				FAAAF246218B819E0082354F /* background.png in Resources */,
+				FAAAF24E218CFB330082354F /* icons8-Sphere-48.png in Resources */,
 				FA117453218B2AD400DE153C /* Assets.xcassets in Resources */,
+				FAAAF252218D00660082354F /* temp.jpg in Resources */,
+				FAAAF250218CFB3C0082354F /* icons8-Home Automation-48.png in Resources */,
+				FAAAF255218D03750082354F /* sofa.png in Resources */,
+				FAAAF25F218D14AA0082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg in Resources */,
 				FAAAF241218B2E3E0082354F /* GoogleService-Info.plist in Resources */,
 				FA117451218B2ACE00DE153C /* Main.storyboard in Resources */,
+				FAAAF258218D03BD0082354F /* bed.png in Resources */,
+				FAAAF256218D03750082354F /* pan.jpg in Resources */,
 				FAAAF244218B80040082354F /* 201@2xiphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA11744E218B2ACE00DE153C /* ViewController.swift in Sources */,
+				FAAAF24C218CC1360082354F /* KitchenController.swift in Sources */,
 				FA11744C218B2ACE00DE153C /* AppDelegate.swift in Sources */,
+				FAAAF248218CC0A80082354F /* HomeController.swift in Sources */,
+				FAAAF24A218CC1050082354F /* LivingRoomController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
