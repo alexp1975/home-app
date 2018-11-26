@@ -13,10 +13,13 @@
 		FA117451218B2ACE00DE153C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11744F218B2ACE00DE153C /* Main.storyboard */; };
 		FA117453218B2AD400DE153C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA117452218B2AD400DE153C /* Assets.xcassets */; };
 		FA117456218B2AD400DE153C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA117454218B2AD400DE153C /* LaunchScreen.storyboard */; };
+		FA1C09A3218DAA1D00B1CBC5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C09A2218DAA1D00B1CBC5 /* RoundedButton.swift */; };
+		FA1C09A6218E260D00B1CBC5 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C09A5218E260D00B1CBC5 /* HomeKit.framework */; };
+		FA8E79BF2198E1A2005FD0DA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E79BE2198E1A2005FD0DA /* home.swift */; };
+		FA8E79C12198EA3C005FD0DA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E79C02198EA3C005FD0DA /* Date+Extension.swift */; };
 		FAAAF241218B2E3E0082354F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */; };
 		FAAAF244218B80040082354F /* 201@2xiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF243218B80030082354F /* 201@2xiphone.png */; };
 		FAAAF246218B819E0082354F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF245218B819E0082354F /* background.png */; };
-		FAAAF248218CC0A80082354F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF247218CC0A80082354F /* HomeController.swift */; };
 		FAAAF24A218CC1050082354F /* LivingRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF249218CC1050082354F /* LivingRoomController.swift */; };
 		FAAAF24C218CC1360082354F /* KitchenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAF24B218CC1360082354F /* KitchenController.swift */; };
 		FAAAF24E218CFB330082354F /* icons8-Sphere-48.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF24D218CFB320082354F /* icons8-Sphere-48.png */; };
@@ -28,6 +31,7 @@
 		FAAAF25A218D0A960082354F /* bluebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF259218D0A960082354F /* bluebackground.jpg */; };
 		FAAAF25D218D0DA30082354F /* UNADJUSTEDNONRAW_thumb_735.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF25C218D0DA20082354F /* UNADJUSTEDNONRAW_thumb_735.jpg */; };
 		FAAAF25F218D14AA0082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF25E218D14A90082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg */; };
+		FAB99B5A21AC2DCB0023F26D /* TimeSetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB99B5921AC2DC00023F26D /* TimeSetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,10 +45,14 @@
 		FA117452218B2AD400DE153C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA117455218B2AD400DE153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA117457218B2AD400DE153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1C09A2218DAA1D00B1CBC5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FA1C09A4218E260900B1CBC5 /* homeapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homeapp.entitlements; sourceTree = "<group>"; };
+		FA1C09A5218E260D00B1CBC5 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		FA8E79BE2198E1A2005FD0DA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		FA8E79C02198EA3C005FD0DA /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAAAF243218B80030082354F /* 201@2xiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "201@2xiphone.png"; sourceTree = "<group>"; };
 		FAAAF245218B819E0082354F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		FAAAF247218CC0A80082354F /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		FAAAF249218CC1050082354F /* LivingRoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomController.swift; sourceTree = "<group>"; };
 		FAAAF24B218CC1360082354F /* KitchenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenController.swift; sourceTree = "<group>"; };
 		FAAAF24D218CFB320082354F /* icons8-Sphere-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Sphere-48.png"; path = "homeapp/icons8-Sphere-48.png"; sourceTree = SOURCE_ROOT; };
@@ -57,6 +65,7 @@
 		FAAAF25B218D0D750082354F /* IMG_0104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0104.jpg; sourceTree = "<group>"; };
 		FAAAF25C218D0DA20082354F /* UNADJUSTEDNONRAW_thumb_735.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_735.jpg; sourceTree = "<group>"; };
 		FAAAF25E218D14A90082354F /* UNADJUSTEDNONRAW_thumb_5f6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_5f6.jpg; sourceTree = "<group>"; };
+		FAB99B5921AC2DC00023F26D /* TimeSetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1C09A6218E260D00B1CBC5 /* HomeKit.framework in Frameworks */,
 				4EB9D997C7B88B71E4363228 /* Pods_homeapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +84,7 @@
 		1CF6DE1BE8C7D12C40211468 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA1C09A5218E260D00B1CBC5 /* HomeKit.framework */,
 				F0E51DBA050816C5DF3B8490 /* Pods_homeapp.framework */,
 			);
 			name = Frameworks;
@@ -100,12 +111,16 @@
 		FA11744A218B2ACE00DE153C /* homeapp */ = {
 			isa = PBXGroup;
 			children = (
+				FA1C09A4218E260900B1CBC5 /* homeapp.entitlements */,
 				FA11744B218B2ACE00DE153C /* AppDelegate.swift */,
-				FAAAF247218CC0A80082354F /* HomeController.swift */,
+				FA8E79BE2198E1A2005FD0DA /* home.swift */,
+				FAB99B5921AC2DC00023F26D /* TimeSetController.swift */,
 				FAAAF249218CC1050082354F /* LivingRoomController.swift */,
 				FAAAF24B218CC1360082354F /* KitchenController.swift */,
 				FA11744D218B2ACE00DE153C /* ViewController.swift */,
+				FA1C09A2218DAA1D00B1CBC5 /* RoundedButton.swift */,
 				FA11744F218B2ACE00DE153C /* Main.storyboard */,
+				FA8E79C02198EA3C005FD0DA /* Date+Extension.swift */,
 				FA117452218B2AD400DE153C /* Assets.xcassets */,
 				FA117454218B2AD400DE153C /* LaunchScreen.storyboard */,
 				FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */,
@@ -177,6 +192,11 @@
 				TargetAttributes = {
 					FA117447218B2ACE00DE153C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -279,10 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8E79BF2198E1A2005FD0DA /* home.swift in Sources */,
 				FA11744E218B2ACE00DE153C /* ViewController.swift in Sources */,
+				FA1C09A3218DAA1D00B1CBC5 /* RoundedButton.swift in Sources */,
+				FAB99B5A21AC2DCB0023F26D /* TimeSetController.swift in Sources */,
 				FAAAF24C218CC1360082354F /* KitchenController.swift in Sources */,
+				FA8E79C12198EA3C005FD0DA /* Date+Extension.swift in Sources */,
 				FA11744C218B2ACE00DE153C /* AppDelegate.swift in Sources */,
-				FAAAF248218CC0A80082354F /* HomeController.swift in Sources */,
 				FAAAF24A218CC1050082354F /* LivingRoomController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +453,7 @@
 			baseConfigurationReference = 71386F18294F3903C1B2A14A /* Pods-homeapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = homeapp/homeapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92N9D4PB7;
 				INFOPLIST_FILE = homeapp/Info.plist;
@@ -450,6 +474,7 @@
 			baseConfigurationReference = F74CFF5B9D6EF85990D4654C /* Pods-homeapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = homeapp/homeapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92N9D4PB7;
 				INFOPLIST_FILE = homeapp/Info.plist;
