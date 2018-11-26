@@ -15,6 +15,7 @@
 		FA117456218B2AD400DE153C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA117454218B2AD400DE153C /* LaunchScreen.storyboard */; };
 		FA1C09A3218DAA1D00B1CBC5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C09A2218DAA1D00B1CBC5 /* RoundedButton.swift */; };
 		FA1C09A6218E260D00B1CBC5 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C09A5218E260D00B1CBC5 /* HomeKit.framework */; };
+		FA36FBC921AC861600577056 /* DayPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36FBC821AC861600577056 /* DayPickerController.swift */; };
 		FA8E79BF2198E1A2005FD0DA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E79BE2198E1A2005FD0DA /* home.swift */; };
 		FA8E79C12198EA3C005FD0DA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E79C02198EA3C005FD0DA /* Date+Extension.swift */; };
 		FAAAF241218B2E3E0082354F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */; };
@@ -48,6 +49,7 @@
 		FA1C09A2218DAA1D00B1CBC5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		FA1C09A4218E260900B1CBC5 /* homeapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homeapp.entitlements; sourceTree = "<group>"; };
 		FA1C09A5218E260D00B1CBC5 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		FA36FBC821AC861600577056 /* DayPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerController.swift; sourceTree = "<group>"; };
 		FA8E79BE2198E1A2005FD0DA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		FA8E79C02198EA3C005FD0DA /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		FAAAF240218B2E3E0082354F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				FA1C09A4218E260900B1CBC5 /* homeapp.entitlements */,
 				FA11744B218B2ACE00DE153C /* AppDelegate.swift */,
 				FA8E79BE2198E1A2005FD0DA /* home.swift */,
+				FA36FBC821AC861600577056 /* DayPickerController.swift */,
 				FAB99B5921AC2DC00023F26D /* TimeSetController.swift */,
 				FAAAF249218CC1050082354F /* LivingRoomController.swift */,
 				FAAAF24B218CC1360082354F /* KitchenController.swift */,
@@ -302,6 +305,7 @@
 				FA8E79BF2198E1A2005FD0DA /* home.swift in Sources */,
 				FA11744E218B2ACE00DE153C /* ViewController.swift in Sources */,
 				FA1C09A3218DAA1D00B1CBC5 /* RoundedButton.swift in Sources */,
+				FA36FBC921AC861600577056 /* DayPickerController.swift in Sources */,
 				FAB99B5A21AC2DCB0023F26D /* TimeSetController.swift in Sources */,
 				FAAAF24C218CC1360082354F /* KitchenController.swift in Sources */,
 				FA8E79C12198EA3C005FD0DA /* Date+Extension.swift in Sources */,

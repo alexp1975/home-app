@@ -26,7 +26,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var onHidden: UIButton!
+    @IBOutlet weak var label5: UILabel!
     
+    @IBOutlet weak var label6: UILabel!
     
     @IBOutlet weak var offHidden: UIButton!
     
@@ -36,81 +38,40 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         ref = Database.database().reference()
+        
+        //Check database to see if heating, on prints result to label4
         loadScreen()
+        
+        //Check time against database timeset, disables boost button
         checkval()
-        label3.isHidden = true
         
+        tempDisplay()
         
-        
-        
-        
-   
- 
-        
+        label2.isHidden = true
+      
+    
+        if label4.text == nil{
             
-        
-        
-        
-        
-        
-        
-        
-        /*            let post = snapshot.value as? String
-            let actualPost = post
-            let labelPost1 = (actualPost!)
-            self.label3.text = labelPost1
-            print (snapshot)
+            
+            self.label5.isHidden = true
+        }
+        else{
+            
+            self.label5.isHidden = false
+            
             
         }
-  */
-
-        
-        
-        
-  //      let dateFormatter = DateFormatter()
-   //     dateFormatter.timeStyle = .medium
-        
-    //    label1.text = "\(dateFormatter.string(from: currentDateTime+3600))"
-        
-        
-        //Set FireBase Reference
-        
-        
-
-        
-        //Retreive Posts and Listen For Changes
-//        databaseHandle = ref?.child("led").observe(.childChanged, with: { (snapshot) in let post = snapshot.value as? String
-            
- //           let actualPost = post
- //           let labelPost = "Heating Is \(actualPost!)"
- //           self.textLabel.text = labelPost
- //               print (snapshot)
-        
-  //          })
-        
     
         databaseHandle = ref?.child("time").observe(.childChanged, with: { (snapshot) in let post1 = snapshot.value as? String
     
         let actualPost1 = post1
         let labelPost2 = (actualPost1!)
-        self.label3.text = labelPost2
+            self.label4.text = (labelPost2)
         print (snapshot)
     
     })
     
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
     }
-    
-    
     
     
     func updateTimeLabel() {
@@ -122,18 +83,7 @@ class ViewController: UIViewController {
     
     
     
-  //  func showAlert() {
-  //      let alert = UIAlertController(title: "Alert", message: "Wait Please!",
-    //preferredStyle: .alert)
-    //    self.present(alert, animated: true, completion: nil)
-   //     Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false, block: { _ in alert.dismiss(animated: true, completion: nil)} )
-   // }
-    
-    
-    
-    
-    
-    
+
     
     
     @IBAction func on(_ sender: Any) {
@@ -146,20 +96,14 @@ class ViewController: UIViewController {
         ref?.child("time").child("Off").setValue(label1.text)
         
        
-        //self.label3.isHidden = false
+        
        // self.label1.isHidden = false
-        self.label2.isHidden = false
+       // self.label2.isHidden = false
         DispatchQueue.main.asyncAfter(deadline: .now() + 3600) {
             self.label1.isHidden = true
             self.label2.isHidden = true
-            //self.label3.isHidden = true
+            
         }
-        
-        
-        
-        
-        
-        
         
         }
     
@@ -171,10 +115,8 @@ class ViewController: UIViewController {
         ref?.child("led").child("State").setValue("OFF")
         ref?.child("time").child("Off").setValue("  ")
         label1.isHidden = true
-        label2.isHidden = true
-        //label3.isHidden = true
-        //offHidden.isHidden = false
-        //onHidden.isHidden = true
+        onHidden.isEnabled = true
+        
         
     }
     
@@ -215,7 +157,9 @@ class ViewController: UIViewController {
             
             if self.label2.text! > now {
                 
-                self.label4.isHidden = true
+            self.onHidden.isEnabled = false
+           
+            
             }
             }
         )
@@ -225,6 +169,23 @@ class ViewController: UIViewController {
     
     
     
+    
+    func tempDisplay() {
+        
+        
+        ref?.child("temp").observe(.value, with: { snapshot in let value = snapshot.value as? String
+            
+
+            
+            
+            self.label6.text = (value)
+    
+                
+            
+                
+                
+            }
+        )}
     
     
     
